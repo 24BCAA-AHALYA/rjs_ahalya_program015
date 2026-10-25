@@ -1,4 +1,3 @@
-
 import useToggle from "./useToggle";
 import "./App.css";
 
@@ -12,9 +11,7 @@ function App() {
       <div className="toggle-card">
         <h2>Status: {isOn ? "ON" : "OFF"}</h2>
 
-        <button onClick={toggle}>
-          Toggle
-        </button>
+        <button onClick={toggle}>Toggle</button>
       </div>
     </main>
   );
